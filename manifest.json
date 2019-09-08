@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+  "name": "Ziggo Sport Totaal Enhancer",
+  "version": "1.0",
+  "content_scripts": [
+  {
+    "matches": [
+      "https://go.ziggosporttotaal.nl/main/player/*"
+    ],
+    "css": ["content.css"]
+  }
+]
+}
